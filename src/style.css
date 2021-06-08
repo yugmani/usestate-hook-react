@@ -14,7 +14,8 @@ span.user-main {
   padding: 10px;
 }
 
-.counter-num {
+.counter-num,
+.odd-even {
   background-color: white;
   color: red;
   padding: 5px;

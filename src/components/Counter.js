@@ -11,6 +11,10 @@ function Counter() {
       <p>
         You clicked <span className="counter-num"> {click}</span> times
       </p>
+      <p>
+        It is{' '}
+        <span className="odd-even"> {click % 2 === 0 ? 'Even' : 'Odd'}</span>.
+      </p>
       <button onClick={() => setClick(click + 1)}>Click Me</button>
     </div>
   );
