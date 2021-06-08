@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import './style.css';
+import Welcome from './components/Welcome';
+import Counter from './components/Counter';
 
 export default function App() {
-  const click = useState('Yoog Grg');
   return (
     <div>
-      <h1>Welcome {click}!</h1>
+      <h1>ReactJS | useState Hook</h1>
+      <Welcome />
+      <Counter />
     </div>
   );
 }
