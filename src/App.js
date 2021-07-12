@@ -3,6 +3,7 @@ import './style.css';
 import Welcome from './components/Welcome';
 import Counter from './components/Counter';
 import ArrayState from './components/ArrayState';
+import ObjectState from './components/ObjectState';
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Welcome />
       <Counter />
       <ArrayState />
+      <ObjectState />
     </div>
   );
 }
