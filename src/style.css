@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  padding: 5px 10px;
+}
 h1,
 p {
   font-family: Lato;
@@ -8,10 +16,12 @@ span.user-main {
 }
 
 .counter-box {
-  width: 200px;
-  height: 150px;
+  width: 100vw;
+  height: auto;
   background-color: antiquewhite;
   padding: 10px;
+  margin: 15px 0;
+  text-align: center;
 }
 
 .counter-num,
@@ -20,4 +30,14 @@ span.user-main {
   color: red;
   padding: 5px;
   font-size: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul > li {
+  background-color: lightgray;
+  margin: 8px 0;
+  padding: 5px, 0;
 }

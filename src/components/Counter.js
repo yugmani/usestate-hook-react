@@ -20,4 +20,8 @@ function Counter() {
   );
 }
 
+// we are using an arrow function inside setClick() that fetches the previous value of click and uses it to update it with the new value. 
+// This form is useful in cases where it is necessary to perform data manipulations based on the value of the state variable. 
+// Passing a function is also useful in cases where one of the older values from the stack is captured and changed instead of the most recent value.
+
 export default Counter;
